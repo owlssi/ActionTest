@@ -7,6 +7,7 @@
     "build": "ng build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "clean": "gh-pages-clean",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
