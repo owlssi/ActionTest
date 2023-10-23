@@ -38,5 +38,6 @@ jobs:
       # below accordingly.
       if: github.ref == 'refs/heads/main'
       with:
-        publish_dir: ./public
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./dist
           
