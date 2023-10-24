@@ -10,7 +10,7 @@ on:
     branches: [ "markup" ]
 
 jobs:
-  deploy:
+  build-and-deploy:
     concurrency: ci-${{ github.ref }}
     runs-on: ubuntu-latest
 
